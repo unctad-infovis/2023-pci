@@ -132,8 +132,11 @@ function ScatterplotChart({
       },
       plotOptions: {
         scatter: {
+          jitter: {
+            x: 0.005
+          },
           marker: {
-            radius: 3,
+            radius: 3.5,
             symbol: 'circle',
             states: {
               hover: {
@@ -148,9 +151,6 @@ function ScatterplotChart({
                 enabled: false
               }
             }
-          },
-          jitter: {
-            x: 0.005
           }
         }
       },

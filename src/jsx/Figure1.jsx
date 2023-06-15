@@ -12,10 +12,10 @@ function Figure2({ lang }) {
   const [dataFigure, setDataFigure] = useState(false);
 
   const cleanData = (data) => ([{
-    color: 'rgba(170, 160, 150, 0.8)',
+    color: 'rgba(170, 160, 150, 0.6)',
     data: [[0, 0], [80, 80]],
     id: '',
-    lineWidth: 2,
+    lineWidth: 1.5,
     name: '',
     showInLegend: false,
     type: 'line'
@@ -77,8 +77,8 @@ function Figure2({ lang }) {
         note={lang === 'fr' ? '<em>Note:</em> ' : (lang === 'es' ? '<em>Nota:</em> ' : '<em>Note:</em> ')}
         show_first_label
         source={lang === 'fr' ? '<em>Source:</em> ' : (lang === 'es' ? '<em>Fuente:</em> ' : '<em>Source:</em> UNCTAD')}
-        subtitle={lang === 'fr' ? '' : (lang === 'es' ? '' : 'PCI 2018 versus PCI 2022')}
-        title={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Covid-19 hit PCI index in all regions but there are success stories')}
+        subtitle={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Average scores on the composite index in 2022 vs 2018')}
+        title={lang === 'fr' ? '' : (lang === 'es' ? '' : 'COVID-19 hit productive capacities globally but some regions showed resilience')}
         xlabel={lang === 'fr' ? '' : (lang === 'es' ? '' : '')}
         ylabel=""
       />
