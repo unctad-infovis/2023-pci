@@ -262,6 +262,7 @@ function ScatterplotChart({
         max: 75,
         min: 15,
         opposite: false,
+        showFirstLabel: true,
         showLastLabel: true,
         tickInterval: 10,
         title: {
@@ -296,7 +297,8 @@ function ScatterplotChart({
         max: 75,
         min: 15,
         opposite: false,
-        showLastLabel: true,
+        showFirstLabel: false,
+        showLastLabel: false,
         tickInterval: 10,
         title: {
           enabled: true,
