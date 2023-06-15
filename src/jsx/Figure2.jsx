@@ -55,8 +55,8 @@ function Figure2({ lang }) {
         note={lang === 'fr' ? '<em>Note:</em> ' : (lang === 'es' ? '<em>Nota:</em> ' : '<em>Note:</em> ')}
         show_first_label
         source={lang === 'fr' ? '<em>Source:</em> ' : (lang === 'es' ? '<em>Fuente:</em> ' : '<em>Source:</em> UNCTAD')}
-        subtitle={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Productive capasities index in selected countries, 2000–2022')}
-        title={lang === 'fr' ? '' : (lang === 'es' ? '' : 'In countries supported by UNCTAD there has been rabid progress')}
+        subtitle={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Average scores on the composite index, 2000–2022')}
+        title={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Countries with policies based on the productive capacities index have made notable progress')}
         xlabel={lang === 'fr' ? '' : (lang === 'es' ? '' : '')}
         ylabel=""
       />
