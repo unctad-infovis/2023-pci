@@ -52,10 +52,10 @@ function Figure2({ lang }) {
         data={dataFigure}
         idx="2"
         lang={lang}
-        note={lang === 'fr' ? '<em>Note:</em> ' : (lang === 'es' ? '<em>Nota:</em> ' : '<em>Note:</em> ')}
+        note={false}
         show_first_label
-        source={lang === 'fr' ? '<em>Source:</em> ' : (lang === 'es' ? '<em>Fuente:</em> ' : '<em>Source:</em> UNCTAD')}
-        subtitle={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Average scores on the composite index, 2000–2022')}
+        source={lang === 'fr' ? '<em>Source:</em> ' : (lang === 'es' ? '<em>Fuente:</em> ' : '<em>Source:</em> UNCTAD from UNCTADStat, 2023.')}
+        subtitle={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Overall score on the composite index, 2000–2022')}
         title={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Countries with policies based on the productive capacities index have made notable progress')}
         xlabel={lang === 'fr' ? '' : (lang === 'es' ? '' : '')}
         ylabel=""

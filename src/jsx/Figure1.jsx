@@ -74,9 +74,9 @@ function Figure2({ lang }) {
         data={dataFigure}
         idx="1"
         lang={lang}
-        note={lang === 'fr' ? '<em>Note:</em> ' : (lang === 'es' ? '<em>Nota:</em> ' : '<em>Note:</em> ')}
+        note={false}
         show_first_label
-        source={lang === 'fr' ? '<em>Source:</em> ' : (lang === 'es' ? '<em>Fuente:</em> ' : '<em>Source:</em> UNCTAD')}
+        source={lang === 'fr' ? '<em>Source:</em> ' : (lang === 'es' ? '<em>Fuente:</em> ' : '<em>Source:</em> UNCTAD from UNCTADStat, 2023.')}
         subtitle={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Average scores on the composite index in 2022 vs 2018')}
         title={lang === 'fr' ? '' : (lang === 'es' ? '' : 'COVID-19 hit productive capacities globally but some regions showed resilience')}
         xlabel={lang === 'fr' ? '' : (lang === 'es' ? '' : '')}
