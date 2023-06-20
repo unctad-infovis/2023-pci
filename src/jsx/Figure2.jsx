@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import PropTypes from 'prop-types';
 
 // Load helpers.
@@ -11,8 +11,8 @@ function Figure2({ lang }) {
   // Data states.
   const [dataFigure, setDataFigure] = useState(false);
 
-  const cleanData = (data) => data.map((el) => {
-    const labels = Object.keys(el).filter(val => val !== 'Name').map(val => Date.UTC(parseInt(val, 10), 0, 1));
+  const cleanData = useCallback((data) => data.map((el) => {
+    const labels = Object.keys(el).filter(val => val !== `Name ${lang}`).map(val => Date.UTC(parseInt(val, 10), 0, 1));
     const values = Object.values(el).map(val => (parseFloat(val))).filter(val => !Number.isNaN(val));
 
     return ({
@@ -24,10 +24,10 @@ function Figure2({ lang }) {
         enabled: false
       },
       lineWidth: 3,
-      name: el.Name,
+      name: el[`Name ${lang}`],
       yAxis: 0
     });
-  });
+  }), [lang]);
 
   useEffect(() => {
     const data_file = `${(window.location.href.includes('unctad.org')) ? 'https://storage.unctad.org/2023-pci/' : './'}assets/data/2023-pci_figure2_${lang}.csv`;
@@ -43,7 +43,7 @@ function Figure2({ lang }) {
     } catch (error) {
       console.error(error);
     }
-  }, [lang]);
+  }, [cleanData, lang]);
 
   return (
     <div className="app">
@@ -54,9 +54,9 @@ function Figure2({ lang }) {
         lang={lang}
         note={false}
         show_first_label
-        source={lang === 'fr' ? '<em>Source:</em> ' : (lang === 'es' ? '<em>Fuente:</em> ' : '<em>Source:</em> UNCTAD from UNCTADStat, 2023.')}
-        subtitle={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Overall score on the composite index, 2000–2022')}
-        title={lang === 'fr' ? '' : (lang === 'es' ? '' : 'Countries with policies based on the productive capacities index have made notable progress')}
+        source={lang === 'fr' ? '<em>Source:</em> CNUCED, d\'après UNCTADStat, 2023.' : (lang === 'es' ? '<em>Fuente:</em> UNCTAD con base en UNCTADStat, 2023.' : '<em>Source:</em> UNCTAD from UNCTADStat, 2023.')}
+        subtitle={lang === 'fr' ? 'Score global de l\'indice composite, 2000–2022' : (lang === 'es' ? 'Puntuación global en el índice compuesto, 2000–2022' : 'Overall score on the composite index, 2000–2022')}
+        title={lang === 'fr' ? 'Les pays dont les politiques sont basées sur l\'indice des capacités productives ont réalisé des progrès notables' : (lang === 'es' ? 'Los países con políticas basadas en el índice de capacidades productivas han logrado avances notables' : 'Countries with policies based on the productive capacities index have made notable progress')}
         xlabel={lang === 'fr' ? '' : (lang === 'es' ? '' : '')}
         ylabel=""
       />
