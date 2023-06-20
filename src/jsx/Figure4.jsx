@@ -58,7 +58,7 @@ function Figure4({ lang }) {
         lang={lang}
         note="LDCs = Least developed countries, LLDC = Landlocked Developing Countries"
         show_first_label
-        source="<em>Source:</em> UNCTADStat, 2023."
+        source="<em>Source:</em> UNCTAD from UNCTADstat, 2023."
         subtitle="Correlation, p = -0.49"
         title="Correlation between the Productive Capacities Index and the Merchandise Export Concentration Index, 2021"
         xlabel="Merchandise Export Concentration Index"

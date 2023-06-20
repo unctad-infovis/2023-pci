@@ -58,7 +58,7 @@ function Figure3({ lang }) {
         lang={lang}
         note="LDCs = Least developed countries, LLDC = Landlocked Developing Countries"
         show_first_label
-        source="<em>Source:</em> UNCTADStat, 2023."
+        source="<em>Source:</em> UNCTAD from UNCTADstat, 2023."
         subtitle="Correlation, p = 0.90"
         title="Correlation between the Productive Capacities Index and Gross Domestic Product per Capita, 2021"
         xlabel="Log GDP per capita"

@@ -76,8 +76,8 @@ function Figure1({ lang }) {
         lang={lang}
         note={false}
         show_first_label
-        source={lang === 'fr' ? '<em>Source:</em> CNUCED, d\'après UNCTADStat, 2023.' : (lang === 'es' ? '<em>Fuente:</em> UNCTAD con base en UNCTADStat, 2023.' : '<em>Source:</em> UNCTAD from UNCTADStat, 2023.')}
-        subtitle={lang === 'fr' ? 'Scores moyens de l\'indice composite en 2022 par rapport à 2018' : (lang === 'es' ? 'Puntuaciones medias del índice compuesto en 2022 frente a 2018' : 'Overall score on the composite index in 2022 vs 2018')}
+        source={lang === 'fr' ? '<em>Source:</em> CNUCED, d\'après UNCTADStat, 2023.' : (lang === 'es' ? '<em>Fuente:</em> UNCTAD con base en UNCTADstat, 2023.' : '<em>Source:</em> UNCTAD from UNCTADstat, 2023.')}
+        subtitle={lang === 'fr' ? 'Score global de l\'indice composite en 2022 par rapport à 2018' : (lang === 'es' ? 'Puntuación global en el índice compuesto en 2022 frente a 2018' : 'Overall score on the composite index in 2022 vs 2018')}
         title={lang === 'fr' ? 'Le COVID-19 a affecté les capacités productives au niveau mondial, mais certaines régions ont fait preuve de résilience' : (lang === 'es' ? 'La COVID-19 afectó a las capacidades productivas a nivel mundial, pero algunas regiones mostraron resiliencia' : 'COVID-19 hit productive capacities globally but some regions showed resilience')}
         xlabel="PCI 2018"
         xmax={75}
