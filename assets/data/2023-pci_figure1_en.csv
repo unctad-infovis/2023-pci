@@ -1,4 +1,4 @@
-Continent,Name,2018,2022
+Continent en,Name en,2018,2022
 North America,Aruba,56.80,56.98
 Asia,Afghanistan,30.04,25.79
 Africa,Angola,30.42,29.24
@@ -129,7 +129,7 @@ Africa,Namibia,45.68,41.15
 Africa,Niger,19.56,16.89
 Africa,Nigeria,30.71,31.94
 North America,Nicaragua,40.91,41.44
-Europe,Netherlands,68.68,68.84
+Europe,Netherlands (Kingdom of the),68.68,68.84
 Europe,Norway,66.12,66.36
 Asia,Nepal,41.08,40.35
 Oceania,New Zealand,67.60,66.92
@@ -176,7 +176,7 @@ Asia,Timor-Leste,44.47,47.57
 Oceania,Tonga,56.28,55.68
 North America,Trinidad and Tobago,53.42,51.95
 Africa,Tunisia,49.77,47.70
-Asia,Turkiye,54.31,54.01
+Asia,Türkiye,54.31,54.01
 Oceania,Tuvalu,54.38,54.08
 Africa,"Tanzania, United Republic of",31.49,31.86
 Africa,Uganda,25.45,21.39
