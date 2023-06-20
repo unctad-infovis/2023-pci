@@ -1,0 +1,106 @@
+<p>&nbsp;</p>
+
+<figure class="highcharts-figure">
+<div id="container2">&nbsp;</div>
+<br />
+There is an inverse relationship between PCI and the Merchandise Export Concentration Index, that is, economies with higher productive capacities have a lower Merchandise Export Concentration Index scores. Conversely, countries that have the highest Merchandise Export Concentration Index scores, are those with the weakest productive capacities. This means that dependence on the export of a few commodities and vulnerability to negative external shocks may be reduced by fostering productive capacities.</figure>
+<script>
+
+Highcharts.chart('container2', {
+  chart: {
+    style: {fontSize: '14px'},
+    type: 'scatter',
+    zoomType: 'xy'
+  },
+  title: {
+    style: {fontSize: '20px'},
+    text: 'Correlation between the Productive Capacities Index and the Merchandise Export Concentration Index, 2021'
+  },
+  subtitle: {
+    style: {fontSize: '18px'},
+    text: 'ρ = -0.49'
+  },
+  xAxis: {
+    title: {
+      enabled: true,      text: 'Merchandise Export Concentration Index',     labels: {style: {fontSize: '12px'}}
+
+    },
+    startOnTick: true,
+    endOnTick: true,
+    showLastLabel: true
+  },
+  yAxis: {
+    title: {
+      text: 'PCI'
+    }
+  },
+  credits : {
+   style: {fontSize: '10px'},
+    text : "UNCTADSTAT, 2023",
+    href : 'https://unctadstat.unctad.org/EN/Pci.html',
+  },
+  plotOptions: {
+    scatter: {
+      marker: {
+        radius: 5,
+        states: {
+          hover: {
+            enabled: true,
+            lineColor: 'rgb(100,100,100)'
+          }
+        }
+      },
+      states: {
+        hover: {
+          marker: {
+            enabled: false
+          }
+        }
+      }
+    }
+  },
+    exporting: {
+        buttons: {
+            contextButton: {
+                menuItems: [
+                    'printChart',
+                    'separator',
+                    'downloadPNG',
+                    'downloadJPEG',
+                    'downloadPDF',
+                    'downloadSVG'
+                ]
+            }
+        }
+    },  
+  tooltip: {
+   formatter: function(){
+         var string="<b>" + this.point.series.name +  " - " + this.point.country + '</b><br/>Merchandise Export Concentration Index: '+this.x+'<br/>PCI: '+this.y;
+         return string;
+         }
+  },
+  series: [
+  {name: 'Developed',color: '#9C867A',
+   data: [
+  {x:0.22,y:43.55,country:"Albania"},{x:0.18,y:57.51,country:"Andorra"},{x:0.35,y:69.74,country:"Australia"},{x:0.06,y:63.85,country:"Austria"},{x:0.13,y:62.62,country:"Belgium"},{x:0.65,y:52.13,country:"Bermuda"},{x:0.11,y:42.14,country:"Bosnia and Herzegovina"},{x:0.08,y:51.59,country:"Bulgaria"},{x:0.09,y:48.4,country:"Belarus"},{x:0.15,y:66.63,country:"Canada"},{x:0.07,y:53.6,country:"Croatia"},{x:0.35,y:54.19,country:"Cyprus"},{x:0.12,y:59.66,country:"Czechia"},{x:0.08,y:70.54,country:"Denmark"},{x:0.1,y:57.17,country:"Estonia"},{x:0.13,y:62.5,country:"Finland"},{x:0.07,y:62.68,country:"France"},{x:0.08,y:65.47,country:"Germany"},{x:0.23,y:54.84,country:"Greece"},{x:0.1,y:59.13,country:"Hungary"},{x:0.48,y:64.45,country:"Iceland"},{x:0.3,y:62.51,country:"Ireland"},{x:0.15,y:62.72,country:"Israel"},{x:0.05,y:55.38,country:"Italy"},{x:0.13,y:57.24,country:"Japan"},{x:0.18,y:62.28,country:"Korea, Republic of"},{x:0.08,y:58.33,country:"Latvia"},{x:0.09,y:53.79,country:"Lithuania"},{x:0.11,y:63.59,country:"Luxembourg"},{x:0.25,y:60.65,country:"Malta"},{x:0.22,y:44.19,country:"Montenegro"},{x:0.08,y:68.83,country:"Netherlands (Kingdom of the)"},{x:0.2,y:67.24,country:"New Zealand"},{x:0.4,y:66,country:"Norway"},{x:0.06,y:58.42,country:"Poland"},{x:0.07,y:60.26,country:"Portugal"},{x:0.1,y:52.48,country:"Romania"},{x:0.29,y:51.98,country:"Russian Federation"},{x:0.08,y:54.62,country:"Serbia"},{x:0.23,y:50.48,country:"Slovakia"},{x:0.21,y:53.06,country:"Slovenia"},{x:0.09,y:60.17,country:"Spain"},{x:0.09,y:65.35,country:"Sweden"},{x:0.27,y:63.67,country:"Switzerland, Liechtenstein"},{x:0.17,y:49.42,country:"Ukraine"},{x:0.08,y:69.68,country:"United States of America"},{x:0.11,y:65.66,country:"United Kingdom"}
+   ]
+  }, 
+  {name: 'LDCs',color: '#FAC315',
+    data: [
+   {x:0.37,y:27,country:"Afghanistan"},{x:0.85,y:29.17,country:"Angola"},{x:0.39,y:40.11,country:"Bangladesh"},{x:0.38,y:46.79,country:"Bhutan"},{x:0.59,y:38,country:"Solomon Islands"},{x:0.23,y:31.45,country:"Myanmar"},{x:0.52,y:24.43,country:"Burundi"},{x:0.21,y:36.37,country:"Cambodia"},{x:0.41,y:23.96,country:"Central African Republic"},{x:0.87,y:19.13,country:"Chad"},{x:0.57,y:36.65,country:"Comoros"},{x:0.55,y:21.68,country:"Congo, Dem. Rep. of the"},{x:0.44,y:27.51,country:"Benin"},{x:0.45,y:30.06,country:"Ethiopia"},{x:0.27,y:23.68,country:"Eritrea"},{x:0.13,y:42.7,country:"Djibouti"},{x:0.25,y:33.78,country:"Gambia"},{x:0.61,y:43.98,country:"Kiribati"},{x:0.59,y:31.55,country:"Guinea"},{x:0.49,y:24.86,country:"Haiti"},{x:0.3,y:37.81,country:"Lao People's Dem. Rep."},{x:0.36,y:40.9,country:"Lesotho"},{x:0.43,y:30.91,country:"Liberia"},{x:0.34,y:28.77,country:"Madagascar"},{x:0.44,y:18.97,country:"Malawi"},{x:0.89,y:21.41,country:"Mali"},{x:0.47,y:36.1,country:"Mauritania"},{x:0.25,y:29.11,country:"Mozambique"},{x:0.22,y:40.2,country:"Nepal"},{x:0.45,y:16.51,country:"Niger"},{x:0.88,y:25.27,country:"Guinea-Bissau"},{x:0.25,y:46.6,country:"Timor-Leste"},{x:0.34,y:36.31,country:"Rwanda"},{x:0.48,y:43.34,country:"Sao Tome and Principe"},{x:0.26,y:38.51,country:"Senegal"},{x:0.28,y:19.81,country:"Sierra Leone"},{x:0.46,y:21.62,country:"Somalia"},{x:0.93,y:23.49,country:"South Sudan"},{x:0.33,y:25.94,country:"Sudan"},{x:0.22,y:36.09,country:"Togo"},{x:0.26,y:55.79,country:"Tuvalu"},{x:0.28,y:21.31,country:"Uganda"},{x:0.35,y:31.78,country:"Tanzania, United Republic of"},{x:0.79,y:24.11,country:"Burkina Faso"},{x:0.48,y:23.74,country:"Yemen"},{x:0.68,y:32.4,country:"Zambia"}
+  ]
+  }, 
+  {name: 'LLDCs',color: '#C5202E',
+  data: [
+  {x:0.64,y:45.28,country:"Azerbaijan"},{x:0.3,y:48.21,country:"Armenia"},{x:0.33,y:44.03,country:"Bolivia (Plurinational State of)"},{x:0.89,y:44.8,country:"Botswana"},{x:0.48,y:51.34,country:"Kazakhstan"},{x:0.44,y:37.03,country:"Kyrgyzstan"},{x:0.42,y:47.88,country:"Mongolia"},{x:0.17,y:51.14,country:"Moldova, Republic of"},{x:0.34,y:42.92,country:"Paraguay"},{x:0.42,y:29.57,country:"Zimbabwe"},{x:0.22,y:37.6,country:"Eswatini"},{x:0.26,y:35.08,country:"Tajikistan"},{x:0.79,y:43.3,country:"Turkmenistan"},{x:0.24,y:46.55,country:"North Macedonia"},{x:0.33,y:42.04,country:"Uzbekistan"}
+  ]
+  },
+  {name: 'Other Developing Countries',color: '#1C97D4',
+    data: [ 
+  {x:0.5,y:43.65,country:"Algeria"},{x:0.31,y:48.01,country:"Argentina"},{x:0.41,y:47.57,country:"Bahamas"},{x:0.33,y:60.71,country:"Bahrain"},{x:0.19,y:55.72,country:"Barbados"},{x:0.21,y:48.71,country:"Brazil"},{x:0.26,y:49.33,country:"Belize"},{x:0.45,y:53.46,country:"Brunei Darussalam"},{x:0.35,y:27.17,country:"Cameroon"},{x:0.46,y:50.02,country:"Cabo Verde"},{x:0.9,y:49.09,country:"Cayman Islands"},{x:0.18,y:43.09,country:"Sri Lanka"},{x:0.38,y:58.34,country:"Chile"},{x:0.09,y:60.27,country:"China"},{x:0.28,y:48.25,country:"Colombia"},{x:0.73,y:28.44,country:"Congo"},{x:0.26,y:51.11,country:"Costa Rica"},{x:0.24,y:42.06,country:"Cuba"},{x:0.42,y:52.58,country:"Dominica"},{x:0.19,y:41.6,country:"Dominican Republic"},{x:0.34,y:44.52,country:"Ecuador"},{x:0.2,y:47.61,country:"El Salvador"},{x:0.63,y:30.82,country:"Equatorial Guinea"},{x:0.19,y:47.22,country:"Fiji"},{x:0.57,y:33.95,country:"Gabon"},{x:0.23,y:47.69,country:"Georgia"},{x:0.16,y:49.72,country:"State of Palestine"},{x:0.46,y:37.57,country:"Ghana"},{x:0.25,y:48.97,country:"Grenada"},{x:0.13,y:34.35,country:"Guatemala"},{x:0.51,y:41.39,country:"Guyana"},{x:0.25,y:37.87,country:"Honduras"},{x:0.35,y:63.79,country:"China, Hong Kong SAR"},{x:0.13,y:45.12,country:"India"},{x:0.14,y:46.36,country:"Indonesia"},{x:0.34,y:43.83,country:"Iran (Islamic Republic of)"},{x:0.91,y:32.49,country:"Iraq"},{x:0.36,y:37.41,country:"Côte d'Ivoire"},{x:0.47,y:44.12,country:"Jamaica"},{x:0.26,y:45.78,country:"Jordan"},{x:0.19,y:37.63,country:"Kenya"},{x:0.64,y:54.39,country:"Kuwait"},{x:0.2,y:42.04,country:"Lebanon"},{x:0.81,y:37.79,country:"Libya"},{x:0.22,y:55.85,country:"China, Macao SAR"},{x:0.23,y:54.59,country:"Malaysia"},{x:0.64,y:49.26,country:"Maldives"},{x:0.19,y:52.02,country:"Mauritius"},{x:0.13,y:49.81,country:"Mexico"},{x:0.18,y:46.7,country:"Morocco"},{x:0.31,y:55.81,country:"Oman"},{x:0.29,y:41.29,country:"Namibia"},{x:0.34,y:55.74,country:"Aruba"},{x:0.71,y:44.57,country:"Vanuatu"},{x:0.24,y:41.17,country:"Nicaragua"},{x:0.73,y:31.93,country:"Nigeria"},{x:0.92,y:47.67,country:"Marshall Islands"},{x:0.4,y:49.49,country:"Palau"},{x:0.21,y:33.67,country:"Pakistan"},{x:0.44,y:52.79,country:"Panama"},{x:0.31,y:33.33,country:"Papua New Guinea"},{x:0.29,y:47.55,country:"Peru"},{x:0.32,y:43.51,country:"Philippines"},{x:0.41,y:63.57,country:"Qatar"},{x:0.56,y:49.2,country:"Saint Lucia"},{x:0.47,y:51.28,country:"Saint Vincent and the Grenadines"},{x:0.55,y:56.55,country:"Saudi Arabia"},{x:0.41,y:50.51,country:"Seychelles"},{x:0.24,y:54.02,country:"Singapore"},{x:0.16,y:50.38,country:"Viet Nam"},{x:0.23,y:52.31,country:"South Africa"},{x:0.76,y:45.85,country:"Suriname"},{x:0.28,y:31,country:"Syrian Arab Republic"},{x:0.07,y:53.95,country:"Thailand"},{x:0.34,y:55.66,country:"Tonga"},{x:0.29,y:51.59,country:"Trinidad and Tobago"},{x:0.24,y:62.92,country:"United Arab Emirates"},{x:0.14,y:47.49,country:"Tunisia"},{x:0.06,y:53.9,country:"Türkiye"},{x:0.15,y:44.12,country:"Egypt"},{x:0.27,y:54.78,country:"Uruguay"},{x:0.6,y:33.15,country:"Venezuela (Bolivarian Rep. of)"},{x:0.4,y:45.28,country:"Samoa"}  ]
+  }
+  ]
+});
+</script>
+
+<p>&nbsp;</p>
