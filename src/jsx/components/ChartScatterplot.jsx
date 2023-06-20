@@ -236,7 +236,7 @@ function ScatterplotChart({
         crosshairs: true,
         formatter() {
           // eslint-disable-next-line react/no-this-in-sfc
-          return `<div class="tooltip_container"><h3 class="tooltip_header">${this.key}</h3><div class="tooltip_row"><span class="tooltip_label">2022:</span> <span class="tooltip_value">${this.y.toFixed(2)}</span></div><div class="tooltip_row"><span class="tooltip_label">2018:</span> <span class="tooltip_value">${this.x.toFixed(2)}</span></div></div>`;
+          return `<div class="tooltip_container"><h3 class="tooltip_header">${this.key}</h3><div class="tooltip_row"><span class="tooltip_label">${ylabel}:</span> <span class="tooltip_value">${this.y.toFixed(2)}</span></div><div class="tooltip_row"><span class="tooltip_label">${xlabel}:</span> <span class="tooltip_value">${this.x.toFixed(2)}</span></div></div>`;
         },
         padding: 0,
         shadow: false,

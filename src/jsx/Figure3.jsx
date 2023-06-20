@@ -65,9 +65,9 @@ function Figure3({ lang }) {
         xmax={5.2}
         xmin={2.4}
         xtickInterval={0.2}
-        ylabel="PCI"
+        ylabel="Productive Capacities Index"
         ymax={80}
-        ymin={15}
+        ymin={0}
       />
       )}
       <noscript>Your browser does not support JavaScript!</noscript>
