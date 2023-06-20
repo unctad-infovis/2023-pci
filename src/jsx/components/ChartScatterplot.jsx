@@ -43,7 +43,7 @@ Highcharts.SVGRenderer.prototype.symbols.download = (x, y, w, h) => {
 };
 
 function ScatterplotChart({
-  data, idx, note, source, subtitle, title
+  data, idx, note, source, subtitle, title, xlabel, xmax, xmin, xtickInterval, ylabel, ymax, ymin
 }) {
   const chartRef = useRef();
   const isVisible = useIsVisible(chartRef, { once: true });
@@ -101,7 +101,7 @@ function ScatterplotChart({
         type: 'scatter',
         zoomType: 'xy'
       },
-      colors: ['#009edb', '#004987', '#72bf44', '#f58220', '#eb1847', '#a05fb4'],
+      colors: ['#009edb', '#72bf44', '#f58220', '#a05fb4', '#eb1847', '#004987'],
       credits: {
         enabled: false
       },
@@ -219,7 +219,7 @@ function ScatterplotChart({
       },
       title: {
         align: 'left',
-        margin: 40,
+        margin: 20,
         style: {
           color: '#000',
           fontSize: '30px',
@@ -259,12 +259,12 @@ function ScatterplotChart({
         },
         lineColor: 'transparent',
         lineWidth: 0,
-        max: 75,
-        min: 15,
+        max: xmax,
+        min: xmin,
         opposite: false,
         showFirstLabel: true,
         showLastLabel: true,
-        tickInterval: 10,
+        tickInterval: xtickInterval,
         title: {
           enabled: true,
           reserveSpace: true,
@@ -274,7 +274,7 @@ function ScatterplotChart({
             fontSize: '16px',
             fontWeight: 400
           },
-          text: 'PCI 2018'
+          text: xlabel
         },
         type: 'linear'
       },
@@ -294,8 +294,8 @@ function ScatterplotChart({
         },
         lineColor: 'transparent',
         lineWidth: 0,
-        max: 75,
-        min: 15,
+        max: ymax,
+        min: ymin,
         opposite: false,
         showFirstLabel: false,
         showLastLabel: false,
@@ -309,13 +309,13 @@ function ScatterplotChart({
             fontSize: '16px',
             fontWeight: 400
           },
-          text: 'PCI 2022'
+          text: ylabel
         },
         type: 'linear'
       }
     });
     chartRef.current.querySelector(`#chartIdx${idx}`).style.opacity = 1;
-  }, [data, idx, note, source, subtitle, title]);
+  }, [data, idx, note, source, subtitle, title, xlabel, xmax, xmin, xtickInterval, ylabel, ymax, ymin]);
 
   useEffect(() => {
     if (isVisible === true) {
@@ -342,11 +342,25 @@ ScatterplotChart.propTypes = {
   source: PropTypes.string.isRequired,
   subtitle: PropTypes.string,
   title: PropTypes.string.isRequired,
+  xlabel: PropTypes.string,
+  xmax: PropTypes.number,
+  xmin: PropTypes.number,
+  xtickInterval: PropTypes.number,
+  ylabel: PropTypes.string,
+  ymax: PropTypes.number,
+  ymin: PropTypes.number
 };
 
 ScatterplotChart.defaultProps = {
   note: false,
-  subtitle: false
+  subtitle: false,
+  xlabel: '',
+  xmax: undefined,
+  xmin: undefined,
+  xtickInterval: 10,
+  ylabel: '',
+  ymax: undefined,
+  ymin: undefined
 };
 
 export default ScatterplotChart;

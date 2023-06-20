@@ -7,7 +7,7 @@ import ChartScatterplot from './components/ChartScatterplot.jsx';
 
 import '../styles/styles.less';
 
-function Figure2({ lang }) {
+function Figure1({ lang }) {
   // Data states.
   const [dataFigure, setDataFigure] = useState(false);
 
@@ -77,10 +77,14 @@ function Figure2({ lang }) {
         note={false}
         show_first_label
         source={lang === 'fr' ? '<em>Source:</em> CNUCED, d\'après UNCTADStat, 2023.' : (lang === 'es' ? '<em>Fuente:</em> UNCTAD con base en UNCTADStat, 2023.' : '<em>Source:</em> UNCTAD from UNCTADStat, 2023.')}
-        subtitle={lang === 'fr' ? 'Scores moyens de l\'indice composite en 2022 par rapport à 2018' : (lang === 'es' ? 'Puntuaciones medias del índice compuesto en 2022 frente a 2018' : 'Average scores on the composite index in 2022 vs 2018')}
+        subtitle={lang === 'fr' ? 'Scores moyens de l\'indice composite en 2022 par rapport à 2018' : (lang === 'es' ? 'Puntuaciones medias del índice compuesto en 2022 frente a 2018' : 'Overall score on the composite index in 2022 vs 2018')}
         title={lang === 'fr' ? 'Le COVID-19 a affecté les capacités productives au niveau mondial, mais certaines régions ont fait preuve de résilience' : (lang === 'es' ? 'La COVID-19 afectó a las capacidades productivas a nivel mundial, pero algunas regiones mostraron resiliencia' : 'COVID-19 hit productive capacities globally but some regions showed resilience')}
-        xlabel={lang === 'fr' ? '' : (lang === 'es' ? '' : '')}
-        ylabel=""
+        xlabel="PCI 2018"
+        xmax={75}
+        xmin={15}
+        ylabel="PCI 2022"
+        ymax={75}
+        ymin={15}
       />
       )}
       <noscript>Your browser does not support JavaScript!</noscript>
@@ -88,12 +92,12 @@ function Figure2({ lang }) {
   );
 }
 
-Figure2.propTypes = {
+Figure1.propTypes = {
   lang: PropTypes.string
 };
 
-Figure2.defaultProps = {
+Figure1.defaultProps = {
   lang: 'en'
 };
 
-export default Figure2;
+export default Figure1;

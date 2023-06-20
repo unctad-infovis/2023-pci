@@ -1,0 +1,194 @@
+Name,Group,PCI,GDP per capita,Log GDP per capita
+Albania,Developed economies,43.5455,6396.462,3.805939824
+Andorra,Developed economies,57.5119,42066.042,4.623931651
+Australia,Developed economies,69.7448,66915.859,4.825529057
+Austria,Developed economies,63.8465,53840.393,4.731108221
+Belgium,Developed economies,62.6188,51165.51,4.708977307
+Bermuda,Developed economies,52.1331,112652.646,5.051741397
+Bosnia and Herzegovina,Developed economies,42.1408,7143.284,3.853897917
+Bulgaria,Developed economies,51.5872,12207.258,4.086618123
+Belarus,Developed economies,48.4013,7121.005,3.852541291
+Canada,Developed economies,66.6296,52112.061,4.71693825
+Croatia,Developed economies,53.6045,16983.447,4.23002584
+Cyprus,Developed economies,54.1852,31571.264,4.49929197
+Czechia,Developed economies,59.6578,26808.54,4.428273163
+Denmark,Developed economies,70.5415,68036.717,4.832743349
+Estonia,Developed economies,57.1672,27990.621,4.447012534
+Finland,Developed economies,62.5045,53703.453,4.730002211
+France,Developed economies,62.6841,44333.613,4.646733126
+Germany,Developed economies,65.4671,51073.118,4.708192372
+Greece,Developed economies,54.8411,20571.218,4.313260007
+Hungary,Developed economies,59.1301,18728.324,4.272498914
+Iceland,Developed economies,64.4528,69133.134,4.839686245
+Ireland,Developed economies,62.5055,101108.989,5.004789768
+Israel,Developed economies,62.7176,54111.021,4.733285729
+Italy,Developed economies,55.3764,35578.851,4.551191919
+Japan,Developed economies,57.2421,39649.928,4.598242403
+"Korea, Republic of",Developed economies,62.277,34940.411,4.543328009
+Latvia,Developed economies,58.3326,21267.462,4.327715665
+Lithuania,Developed economies,53.7935,23844.126,4.377381408
+Luxembourg,Developed economies,63.5936,133745.402,5.12627886
+Malta,Developed economies,60.645,33641.596,4.526876591
+Montenegro,Developed economies,44.1934,9252.312,3.966250269
+Netherlands (Kingdom of the),Developed economies,68.8265,57871.349,4.762463606
+New Zealand,Developed economies,67.2433,48823.508,4.688628981
+Norway,Developed economies,65.9969,89241.714,4.950567903
+Poland,Developed economies,58.4161,17736.42,4.248865964
+Portugal,Developed economies,60.2551,24651.176,4.391837642
+Romania,Developed economies,52.4789,14697.754,4.167250974
+Russian Federation,Developed economies,51.9773,12258.772,4.088446968
+San Marino,Developed economies,57.7311,50425.102,4.702646785
+Serbia,Developed economies,54.6214,8090.412,3.907970638
+Slovakia,Developed economies,50.4835,21390.453,4.330219982
+Slovenia,Developed economies,53.0612,29134.8,4.464412041
+Spain,Developed economies,60.1675,30058.387,4.477965672
+Sweden,Developed economies,65.3509,60729.713,4.783401229
+"Switzerland, Liechtenstein",Developed economies,63.6746,93864.022,4.972499159
+Ukraine,Developed economies,49.4152,4596.349,3.662412997
+United States of America,Developed economies,69.6805,68815.481,4.83768615
+United Kingdom,Developed economies,65.6645,46364.69,4.66618736
+Afghanistan,LDCs,26.9995,372.549,2.571183402
+Angola,LDCs,29.1712,2044.218,3.310527208
+Bangladesh,LDCs,40.1052,2449.907,3.389149599
+Bhutan,LDCs,46.7884,3062.915,3.486134945
+Solomon Islands,LDCs,38.0006,2305.981,3.362855725
+Myanmar,LDCs,31.454,1088.925,3.036997969
+Burundi,LDCs,24.4293,310.707,2.492351038
+Cambodia,LDCs,36.3725,1607.659,3.206193936
+Central African Republic,LDCs,23.9631,461.361,2.66404088
+Chad,LDCs,19.1288,955.17,2.980080674
+Comoros,LDCs,36.6493,1631.485,3.212583085
+"Congo, Dem. Rep. of the",LDCs,21.6761,551.128,2.741252476
+Benin,LDCs,27.507,1360.911,3.133829724
+Ethiopia,LDCs,30.0623,825.291,2.916607109
+Eritrea,LDCs,23.6842,622.982,2.794475499
+Djibouti,LDCs,42.7035,3348.013,3.524787136
+Gambia,LDCs,33.7807,772.151,2.887702238
+Kiribati,LDCs,43.9844,1764.934,3.24672847
+Guinea,LDCs,31.5515,1185.059,3.073739973
+Haiti,LDCs,24.8584,1663.562,3.221038991
+Lao People's Dem. Rep.,LDCs,37.8113,2568.924,3.409751256
+Lesotho,LDCs,40.8986,1040.309,3.017162356
+Liberia,LDCs,30.9051,470.767,2.672806012
+Madagascar,LDCs,28.7668,499.722,2.698728469
+Malawi,LDCs,18.9665,613.341,2.787701997
+Mali,LDCs,21.4142,874.552,2.941785637
+Mauritania,LDCs,36.1013,2166.045,3.335667475
+Mozambique,LDCs,29.1121,491.839,2.691822963
+Nepal,LDCs,40.1991,1205.5,3.081167215
+Niger,LDCs,16.51,590.629,2.771314767
+Guinea-Bissau,LDCs,25.2677,758.552,2.879985358
+Timor-Leste,LDCs,46.5967,1517.224,3.181049704
+Rwanda,LDCs,36.3071,822.316,2.915038741
+Sao Tome and Principe,LDCs,43.3356,2485.818,3.395469328
+Senegal,LDCs,38.5054,1636.88,3.214016842
+Sierra Leone,LDCs,19.812,504.621,2.70296532
+Somalia,LDCs,21.6212,446.998,2.65030558
+South Sudan,LDCs,23.4903,400.443,2.602540706
+Sudan,LDCs,25.9386,785.577,2.89518876
+Togo,LDCs,36.0904,943.939,2.97494393
+Tuvalu,LDCs,55.7926,5370.419,3.730008171
+Uganda,LDCs,21.305,930.372,2.968656632
+"Tanzania, United Republic of",LDCs,31.7784,1138.217,3.056225068
+Burkina Faso,LDCs,24.1059,893.077,2.950888905
+Yemen,LDCs,23.742,301.586,2.479411177
+Zambia,LDCs,32.3976,1094.502,3.039216559
+Azerbaijan,LLDCs (other than LDCs),45.2751,5296.443,3.723984303
+Armenia,LLDCs (other than LDCs),48.2054,4966.517,3.696051926
+Bolivia (Plurinational State of),LLDCs (other than LDCs),44.0301,3345.197,3.524421699
+Botswana,LLDCs (other than LDCs),44.8014,6805.248,3.832843957
+Kazakhstan,LLDCs (other than LDCs),51.3383,10054.89,4.002377324
+Kyrgyzstan,LLDCs (other than LDCs),37.0329,1339.005,3.126782199
+Mongolia,LLDCs (other than LDCs),47.8769,4509.858,3.654162868
+"Moldova, Republic of",LLDCs (other than LDCs),51.1446,4468.421,3.650154084
+Paraguay,LLDCs (other than LDCs),42.9202,6035.143,3.780687565
+Zimbabwe,LLDCs (other than LDCs),29.5673,1507.995,3.178399902
+Eswatini,LLDCs (other than LDCs),37.5956,3968.906,3.598670813
+Tajikistan,LLDCs (other than LDCs),35.081,897.051,2.952817135
+Turkmenistan,LLDCs (other than LDCs),43.2984,8507.668,3.929810534
+North Macedonia,LLDCs (other than LDCs),46.551,6599.619,3.819518864
+Uzbekistan,LLDCs (other than LDCs),42.0389,2031.572,3.307832219
+Algeria,Other developing economies,43.6489,3700.324,3.568239753
+Argentina,Other developing economies,48.0133,10761.082,4.031855941
+Bahamas,Other developing economies,47.5679,27478.39,4.438991283
+Bahrain,Other developing economies,60.7132,26562.974,4.424276697
+Barbados,Other developing economies,55.7239,17225.462,4.236170879
+Brazil,Other developing economies,48.7116,7507.16,3.875475672
+Belize,Other developing economies,49.3308,6228.701,3.794397484
+Brunei Darussalam,Other developing economies,53.459,31448.914,4.497605653
+Cameroon,Other developing economies,27.169,1668.012,3.222199171
+Cabo Verde,Other developing economies,50.0218,3293.233,3.517622459
+Cayman Islands,Other developing economies,49.0897,85250.265,4.930695738
+Sri Lanka,Other developing economies,43.0884,3918.019,3.593066538
+Chile,Other developing economies,58.3411,16265.096,4.211256631
+China,Other developing economies,60.2659,12437.206,4.094722828
+Colombia,Other developing economies,48.247,6104.137,3.785624272
+Congo,Other developing economies,28.435,2200.318,3.342485452
+Costa Rica,Other developing economies,51.1136,12472.443,4.095951528
+Cuba,Other developing economies,42.06,11255.279,4.051356265
+Dominica,Other developing economies,52.5821,7570.784,3.879140856
+Dominican Republic,Other developing economies,41.6044,8476.75,3.928229375
+Ecuador,Other developing economies,44.5153,5965.133,3.775620131
+El Salvador,Other developing economies,47.6065,4551.185,3.658124489
+Equatorial Guinea,Other developing economies,30.8172,7605.453,3.881125087
+Fiji,Other developing economies,47.2246,4646.538,3.667129493
+Gabon,Other developing economies,33.9538,7910.846,3.89822293
+Georgia,Other developing economies,47.6912,4975.125,3.696803997
+State of Palestine,Other developing economies,49.7167,3513.622,3.545755038
+Ghana,Other developing economies,37.5741,2408.635,3.381770993
+Grenada,Other developing economies,48.9726,8950.229,3.951834147
+Guatemala,Other developing economies,34.3459,4883.208,3.688705223
+Guyana,Other developing economies,41.3944,9998.545,3.999936806
+Honduras,Other developing economies,37.87,2771.723,3.442749826
+"China, Hong Kong SAR",Other developing economies,63.7912,49258.814,4.692483951
+India,Other developing economies,45.1198,2274.477,3.35688155
+Indonesia,Other developing economies,46.3607,4332.709,3.636759521
+Iran (Islamic Republic of),Other developing economies,43.8332,6766.021,3.830333341
+Iraq,Other developing economies,32.489,4686.13,3.670814332
+Côte d'Ivoire,Other developing economies,37.4065,2538.911,3.404647477
+Jamaica,Other developing economies,44.1181,5183.58,3.714629806
+Jordan,Other developing economies,45.7838,4058.354,3.608349927
+Kenya,Other developing economies,37.625,2081.799,3.318438796
+Kuwait,Other developing economies,54.3894,32150.179,4.507183395
+Lebanon,Other developing economies,42.0388,6784.799,3.831536986
+Libya,Other developing economies,37.7881,5791.255,3.762772688
+"China, Macao SAR",Other developing economies,55.8507,43554.86,4.639036622
+Malaysia,Other developing economies,54.5897,11100.944,4.045359912
+Maldives,Other developing economies,49.2615,10366.294,4.015623522
+Mauritius,Other developing economies,52.0191,8872.959,3.948068475
+Mexico,Other developing economies,49.8074,10045.676,4.001979167
+Morocco,Other developing economies,46.7036,3853.283,3.585830906
+Oman,Other developing economies,55.8131,19509.466,4.290245382
+Namibia,Other developing economies,41.2922,4836.174,3.684501918
+Curaçao,Other developing economies,55.7997,14183.255,4.151775911
+Aruba,Other developing economies,55.7411,29342.101,4.467491208
+Vanuatu,Other developing economies,44.5693,3072.572,3.487502069
+Nicaragua,Other developing economies,41.1742,2045.534,3.310806703
+Nigeria,Other developing economies,31.926,2019.308,3.305202566
+Marshall Islands,Other developing economies,47.6709,6111.272,3.786131614
+Palau,Other developing economies,49.492,12084.128,4.082215317
+Pakistan,Other developing economies,33.6675,1480.111,3.170294286
+Panama,Other developing economies,52.7913,14617.597,4.164875984
+Papua New Guinea,Other developing economies,33.3269,2672.967,3.426993597
+Peru,Other developing economies,47.5465,6621.653,3.820966418
+Philippines,Other developing economies,43.509,3460.531,3.539142744
+Qatar,Other developing economies,63.5744,66798.767,4.824768446
+Saint Lucia,Other developing economies,49.1966,9824.062,3.992291095
+Saint Vincent and the Grenadines,Other developing economies,51.2836,8440.025,3.926343733
+Saudi Arabia,Other developing economies,56.5487,23185.871,4.365223415
+Seychelles,Other developing economies,50.5132,12084.628,4.082233286
+Singapore,Other developing economies,54.0154,66821.716,4.824917624
+Viet Nam,Other developing economies,50.3777,3756.489,3.574782121
+South Africa,Other developing economies,52.3099,7055.055,3.848500404
+Suriname,Other developing economies,45.8462,5259.263,3.720924889
+Syrian Arab Republic,Other developing economies,31.0008,924.712,2.966006494
+Thailand,Other developing economies,53.9541,7066.675,3.849215118
+Tonga,Other developing economies,55.6641,4450.531,3.64841183
+Trinidad and Tobago,Other developing economies,51.5888,16032.503,4.20500133
+United Arab Emirates,Other developing economies,62.9162,43295.393,4.636441686
+Tunisia,Other developing economies,47.4882,3807.185,3.580603981
+Türkiye,Other developing economies,53.9045,9661.228,3.985032331
+Egypt,Other developing economies,44.1204,3898.02,3.590844063
+Uruguay,Other developing economies,54.7757,17312.642,4.238363349
+Venezuela (Bolivarian Rep. of),Other developing economies,33.154,3965.034,3.598246916
+Samoa,Other developing economies,45.28,3918.658,3.593137362

@@ -57,8 +57,7 @@ function Figure2({ lang }) {
         source={lang === 'fr' ? '<em>Source:</em> CNUCED, d\'après UNCTADStat, 2023.' : (lang === 'es' ? '<em>Fuente:</em> UNCTAD con base en UNCTADStat, 2023.' : '<em>Source:</em> UNCTAD from UNCTADStat, 2023.')}
         subtitle={lang === 'fr' ? 'Score global de l\'indice composite, 2000–2022' : (lang === 'es' ? 'Puntuación global en el índice compuesto, 2000–2022' : 'Overall score on the composite index, 2000–2022')}
         title={lang === 'fr' ? 'Les pays dont les politiques sont basées sur l\'indice des capacités productives ont réalisé des progrès notables' : (lang === 'es' ? 'Los países con políticas basadas en el índice de capacidades productivas han logrado avances notables' : 'Countries with policies based on the productive capacities index have made notable progress')}
-        xlabel={lang === 'fr' ? '' : (lang === 'es' ? '' : '')}
-        ylabel=""
+        xlabel=""
       />
       )}
       <noscript>Your browser does not support JavaScript!</noscript>
