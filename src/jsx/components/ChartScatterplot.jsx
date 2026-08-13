@@ -43,7 +43,7 @@ Highcharts.SVGRenderer.prototype.symbols.download = (x, y, w, h) => {
 };
 
 function ScatterplotChart({
-  data, idx, note, source, subtitle, title, xlabel, xmax, xmin, xtickInterval, ylabel, ymax, ymin
+  data, idx, note = false, source, subtitle = false, title, xlabel = '', xmax = undefined, xmin = undefined, xtickInterval = 10, ylabel = '', ymax = undefined, ymin = undefined
 }) {
   const chartRef = useRef();
   const isVisible = useIsVisible(chartRef, { once: true });
@@ -349,18 +349,6 @@ ScatterplotChart.propTypes = {
   ylabel: PropTypes.string,
   ymax: PropTypes.number,
   ymin: PropTypes.number
-};
-
-ScatterplotChart.defaultProps = {
-  note: false,
-  subtitle: false,
-  xlabel: '',
-  xmax: undefined,
-  xmin: undefined,
-  xtickInterval: 10,
-  ylabel: '',
-  ymax: undefined,
-  ymin: undefined
 };
 
 export default ScatterplotChart;
